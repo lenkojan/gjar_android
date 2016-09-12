@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IntroAndroidApp</string>
+    <string name="button">Go to screen 2</string>
+    <string name="activity_finished">Activity finished</string>
+</resources>
