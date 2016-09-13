@@ -10,6 +10,10 @@ Krúžok programovania pre android
 * [IntroAndroidApp](https://github.com/lenkojan/gjar_android/tree/master/projects/IntroAndroidApp)
 	* Prvý projekt obsahujúci 2 aktivity a vzájomnvý prechod medzi nimi pomocou vytvorenia a zavolania Intent objektu
 
+### Nástroje
+* [Android studio](https://developer.android.com/studio/index.html)
+* [SmartGit](http://www.syntevo.com/smartgit/)
+
 ### Zdroje
 * Web
 	* [Android development by Google](https://developer.android.com/index.html)
