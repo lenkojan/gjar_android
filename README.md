@@ -20,3 +20,5 @@ Krúžok programovania pre android
 	* [Vogella tutorialy](http://www.vogella.com/tutorials/Android/article.html)
 	* [Googlenie a zdroje zo StackOverflow](http://stackoverflow.com/)
 	* [GitHub](https://github.com/)
+* Objektové programovanie
+	* [Objektové programvanie ľudsky - Matúš Koprda](http://www.zajtra.sk/programovanie/165/objektovo-orientovane-programovanie-v-normalnej-ludskej-reci)
