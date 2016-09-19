@@ -9,6 +9,8 @@ Krúžok programovania pre android
 ### Projekty k hodinám
 * [IntroAndroidApp](https://github.com/lenkojan/gjar_android/tree/master/projects/IntroAndroidApp)
 	* Prvý projekt obsahujúci 2 aktivity a vzájomnvý prechod medzi nimi pomocou vytvorenia a zavolania Intent objektu
+* [LoginFormApp](https://github.com/lenkojan/gjar_android/tree/master/projects/LoginFormApp)
+	* Druhý projekt obsahujúci 2 aktivity a vzájomnvý prechod medzi nimi pomocou vytvorenia a zavolania Intent objektu a predanie hodnôt
 
 ### Nástroje
 * [Android studio](https://developer.android.com/studio/index.html)
