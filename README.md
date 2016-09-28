@@ -24,3 +24,6 @@ Krúžok programovania pre android
 	* [GitHub](https://github.com/)
 * Objektové programovanie
 	* [Objektové programvanie ľudsky - Matúš Koprda](http://www.zajtra.sk/programovanie/165/objektovo-orientovane-programovanie-v-normalnej-ludskej-reci)
+
+### Facebook
+* [Facebook skupina](https://www.facebook.com/groups/1706188616374113/)
