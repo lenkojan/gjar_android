@@ -15,6 +15,7 @@ Krúžok programovania pre android
 ### Nástroje
 * [Android studio](https://developer.android.com/studio/index.html)
 * [SmartGit](http://www.syntevo.com/smartgit/)
+* [Bluestacks](http://www.bluestacks.com/)
 
 ### Zdroje
 * Web
