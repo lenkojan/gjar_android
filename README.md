@@ -1,4 +1,4 @@
-![logo](https://github.com/lenkojan/gjar_android/blob/master/resources/logo.png)
+![logo](https://github.com/lenkojan/gjar_android/blob/master/resources/title.png)
 
 # GJAR Android
 Krúžok programovania pre android
