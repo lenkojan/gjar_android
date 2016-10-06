@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="@string/activity_success_text" />
+        android:text="Your login data are" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,7 +23,7 @@
         android:layout_alignBaseline="@+id/login"
         android:layout_marginRight="10dp"
         android:layout_toLeftOf="@+id/login"
-        android:text="@string/activity_success_login" />
+        android:text="Login : " />
 
     <EditText
         android:id="@+id/login"
@@ -39,7 +39,7 @@
         android:layout_alignBaseline="@+id/password"
         android:layout_marginRight="10dp"
         android:layout_toLeftOf="@+id/password"
-        android:text="@string/activity_success_password" />
+        android:text="Password : " />
 
     <EditText
         android:id="@+id/password"

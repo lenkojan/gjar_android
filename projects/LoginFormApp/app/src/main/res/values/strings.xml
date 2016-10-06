@@ -1,8 +1,4 @@
 <resources>
     <string name="app_name">LoginFormApp</string>
-    <string name="login">Login</string>
     <string name="title_activity_uccess">SuccessActivity</string>
-    <string name="activity_success_text">Your login data are :</string>
-    <string name="activity_success_login">Login :</string>
-    <string name="activity_success_password">Password :</string>
 </resources>
