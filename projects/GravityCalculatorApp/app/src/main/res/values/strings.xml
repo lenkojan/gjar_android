@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Gravity Calculator</string>
+    <string name="weight_not_valid">Weight is not valid</string>
+</resources>
