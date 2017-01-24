@@ -32,35 +32,6 @@ public class MainActivity extends AppCompatActivity {
         mSend = (Button) findViewById(R.id.send);
         mMessage = (EditText) findViewById(R.id.message);
         mChat = (TextView) findViewById(R.id.chat);
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        mRef = database.getReference("message");
-        mRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                Object post = dataSnapshot.getValue(Object.class);
-                Object[] chat = ((HashMap) post).values().toArray();
-                StringBuilder sb = new StringBuilder();
-                for (int i = 0; i < chat.length; i++) {
-                    sb.append(chat[i].toString()+"\n\n");
-                }
-                mChat.setText(sb.toString());
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-
-        mSend.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mRef.child(String.valueOf(new Date().getTime())).setValue(mMessage.getText().toString());
-            }
-        });
-    }
-
-    class Chat extends HashMap<Integer, Object> {
 
     }
 }
