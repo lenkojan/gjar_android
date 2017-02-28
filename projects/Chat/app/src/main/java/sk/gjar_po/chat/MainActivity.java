@@ -3,10 +3,12 @@ package sk.gjar_po.chat;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Editable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     EditText mMessage;
     DatabaseReference mRef;
     TextView mChat;
+    Object o;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,35 +35,17 @@ public class MainActivity extends AppCompatActivity {
         mSend = (Button) findViewById(R.id.send);
         mMessage = (EditText) findViewById(R.id.message);
         mChat = (TextView) findViewById(R.id.chat);
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        mRef = database.getReference("message");
-        mRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                Object post = dataSnapshot.getValue(Object.class);
-                Object[] chat = ((HashMap) post).values().toArray();
-                StringBuilder sb = new StringBuilder();
-                for (int i = 0; i < chat.length; i++) {
-                    sb.append(chat[i].toString()+"\n\n");
-                }
-                mChat.setText(sb.toString());
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-
-        mSend.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mRef.child(String.valueOf(new Date().getTime())).setValue(mMessage.getText().toString());
-            }
-        });
+        AAAA a = new AAAA();
+        mSend.setOnClickListener(a);
+        Editable b = mMessage.getText();
     }
 
-    class Chat extends HashMap<Integer, Object> {
+    class AAAA implements View.OnClickListener {
 
+        @Override
+        public void onClick(View view) {
+            Toast.makeText(MainActivity.this, "aaaaaaa", Toast.LENGTH_LONG).show();
+            String message = mMessage.getText().toString();
+        }
     }
 }
