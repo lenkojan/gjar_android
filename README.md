@@ -31,3 +31,7 @@ Krúžok programovania pre android
 
 ### Facebook
 * [Facebook skupina](https://www.facebook.com/groups/1706188616374113/)
+
+### Prva hodina
+* [FirstClass](https://github.com/lenkojan/gjar_android/blob/master/lessons/FirstApp/src/FirstClass.java)
+* [Robot](https://github.com/lenkojan/gjar_android/blob/master/lessons/FirstApp/src/Robot.java)
