@@ -35,12 +35,14 @@ public class MainActivity extends AppCompatActivity {
         mSend = (Button) findViewById(R.id.send);
         mMessage = (EditText) findViewById(R.id.message);
         mChat = (TextView) findViewById(R.id.chat);
+
         AAAA a = new AAAA();
         mSend.setOnClickListener(a);
         Editable b = mMessage.getText();
     }
 
     class AAAA implements View.OnClickListener {
+
 
         @Override
         public void onClick(View view) {
