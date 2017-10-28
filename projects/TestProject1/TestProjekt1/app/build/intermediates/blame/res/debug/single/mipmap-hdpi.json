@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\git\\github\\gjar_android\\projects\\TestProject1\\TestProjekt1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "F:\\git\\github\\gjar_android\\projects\\TestProject1\\TestProjekt1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\git\\github\\gjar_android\\projects\\TestProject1\\TestProjekt1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "F:\\git\\github\\gjar_android\\projects\\TestProject1\\TestProjekt1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    }
+]
